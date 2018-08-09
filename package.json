@@ -25,6 +25,8 @@
     "type": "git",
     "url": "git+https://github.com/jimmycodesocial/draft-js-soft-newline-plugin.git"
   },
+  "license": "MIT",
+  "main": "lib/index.js",
   "scripts": {
     "clean": "node_modules/.bin/rimraf lib",
     "build": "npm run clean && npm run build:js",
